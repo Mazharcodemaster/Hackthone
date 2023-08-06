@@ -81,7 +81,7 @@ const Form = () => {
   
   
   return (
-    <div className="flex min-h-full max-w-md w-1/2 mx-auto  flex-col justify-center px-6 py-12 lg:px-8 mt-20">
+    <div className="flex min-h-full max-w-md w-1/2 mx-auto   flex-col justify-center px-6 py-12 lg:px-8 mt-20">
       {showAlert && (
          <div className="flex w-full rounded-lg border-l-[6px] border-[#34D399] bg-[#34D399] bg-opacity-[15%] px-7 py-8 shadow-md md:p-9">
          <div className="mr-5 flex h-9 w-full max-w-[36px] items-center justify-center rounded-lg bg-[#34D399]">
@@ -109,7 +109,7 @@ const Form = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <img
           className="mx-auto h-10 w-auto"
-          src="https://img.icons8.com/external-flat-icons-vectorslab/68/external-Post-social-media-flat-icons-vectorslab.png"
+          src="https://img.icons8.com/external-flat-icons-vectorslab/68/external-Add-Product-shopping-and-commerce-flat-icons-vectorslab.png"
           alt="Your post"
         ></img>
         <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
@@ -120,7 +120,7 @@ const Form = () => {
         <div>
           <label
             htmlFor="title"
-            className="block text-sm font-medium leading-6 text-gray-900"
+            className="block text-sm font-medium leading-6  text-gray-900"
           >
             Name
           </label>
